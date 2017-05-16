@@ -1,0 +1,19 @@
+{
+    "compileOnSave": true,
+
+    "compilerOptions": {
+        "outFile":            "js/custom/Mfg.js",
+        "noImplicitAny":      false,
+        "removeComments":     true,
+        "preserveConstEnums": true,
+        "sourceMap":          true
+    },
+
+    "include": [
+        "src/**/*",
+        "lib/ts/**/*"
+    ],
+
+    "exclude": [
+    ]
+}
