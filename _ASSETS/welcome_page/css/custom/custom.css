@@ -18,7 +18,7 @@
         font-weight:                    500;
         text-decoration:                none;
 /*
-        background:                     no-repeat left bottom url( ../../res/image/mayflowerLogo.png );
+        background:                     no-repeat right bottom url( "../../res/image/mayflowerLogo.png" );
 */
     }
 
@@ -70,15 +70,21 @@
         float:                          left;
         overflow:                       hidden;
         vertical-align:                 top;
-        margin:                         0;
+        margin:                         0 25px 0 0;
     }
 
-    div.right
+    div.right_top
     {
-        float:                          right;
         overflow:                       hidden;
         vertical-align:                 top;
         margin:                         0;
+    }
+
+    div.right_bottom
+    {
+        overflow:                       hidden;
+        vertical-align:                 top;
+        margin:                         25px 0 0 0;
     }
 
     @media ( max-width: 850px )
@@ -91,11 +97,11 @@
 
     figure.logo
     {
-        max-width:                      300px;
-        border-radius:                  150px;
+        max-width:                      350px;
+        border-radius:                  175px;
         border:                         1px solid #505050;
 
-        margin:                         0 auto 0 auto;
+        margin:                         55px auto 0 auto;
         padding:                        0;
         overflow:                       hidden;
 
@@ -114,7 +120,7 @@
         color:                          #202020;
         background:                     #ffffff;
 
-        margin:                         0 0 0 20px;
+        margin:                         0 0 0 25px;
         overflow:                       hidden;
 
         font-size:                      13px;
@@ -131,7 +137,7 @@
         figure.button
         {
             float:                      none;
-            margin:                     20px auto 0 auto;
+            margin:                     25px auto 0 auto;
         }
     }
 
@@ -158,7 +164,7 @@
     h1
     {
         color:                          #e30613;
-        margin:                         20px 0 0 0;
+        margin:                         0;
     }
 
     h2
@@ -167,9 +173,7 @@
         margin:                         0 0 25px 0;
     }
 
-    i.fa-github,
-    i.fa-calendar,
-    i.fa-gamepad
+    i.fa
     {
         text-shadow:                    1px 1px 0 #ffffff;
 
@@ -179,9 +183,7 @@
         transition:                     text-shadow 0.5s ease-in-out 0s;
     }
 
-    figure.button:hover i.fa-github,
-    figure.button:hover i.fa-calendar,
-    figure.button:hover i.fa-gamepad
+    figure.button:hover i.fa
     {
         text-shadow:                    1px 1px 0 #000000;
     }
@@ -204,9 +206,33 @@
         margin:                         15px 0 2px 0;
     }
 
+    i.fa-heart
+    {
+        font-size:                      60px;
+        margin:                         28px 0 9px 0;
+    }
+
+    i.fa-html5
+    {
+        font-size:                      80px;
+        margin:                         15px 0 2px 0;
+    }
+
+    i.fa-database
+    {
+        font-size:                      60px;
+        margin:                         28px 0 9px 0;
+    }
+
+    i.fa-lightbulb-o
+    {
+        font-size:                      80px;
+        margin:                         15px 0 2px 0;
+    }
+
     img.logo
     {
-        max-width:                      300px;
+        max-width:                      350px;
         width:                          100%;
         height:                         auto;
     }
